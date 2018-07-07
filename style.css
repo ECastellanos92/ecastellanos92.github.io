@@ -1,0 +1,26 @@
+body{
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+img{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
